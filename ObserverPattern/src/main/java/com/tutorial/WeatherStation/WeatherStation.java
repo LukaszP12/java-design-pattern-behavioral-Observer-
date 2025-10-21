@@ -7,7 +7,7 @@ public class WeatherStation implements Subject {
     private List<Observer> observers;
     private float temperature;
 
-    public WeatherStation(List<Observer> observers) {
+    public WeatherStation() {
         observers = new ArrayList<>();
     }
 
